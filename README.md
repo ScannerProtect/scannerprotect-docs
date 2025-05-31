@@ -15,7 +15,7 @@ If you sandwich your NFC tags between two ScannerProtect tags a few effects come
 - If the attacker visits the page an email with the HTTP request (including the attacker's IP address) will be sent to a configurable email address.
 
 ## How to set up ScannerProtect for yourself
-1) Follow [this guide](https://github.com/ScannerProtect/n8n-workflows/blob/main/README.md) to create an n8n workflow. If you want to create multiple hook that send emails to different people just create multiple copies of the workflow and change the SMTP credentials and email addresses
+1) Follow [this guide](https://github.com/ScannerProtect/n8n-workflows/blob/main/README.md) to create an n8n workflow. If you want to create multiple hooks that send emails to different people just create multiple copies of the workflow and change the SMTP credentials and email addresses
 2) Either:
     - Write the URL directly to your NFC tag
       
