@@ -16,4 +16,4 @@ If you sandwich your NFC tags between two ScannerProtect tags a few effects come
 
 ## How to set up ScannerProtect for yourself
 - Follow [this guide](https://github.com/ScannerProtect/n8n-workflows/blob/main/README.md) to create an n8n workflow. If you want to create multiple hook that send emails to different people just create multiple copies of the workflow and change the SMTP credentials and email addresses
-- Either write the URL directly to your NFC tag or use a custom URL which should point to a page with the following minimal HTML ```<head><meta http-equiv="refresh" content="0; url=https://n8n.nwawsoft.cloud/webhook/84386743-1403-45df-97f1-5725a279df22"></head>``` and write this new URL to your NFC tag.
+- Either write the URL directly to your NFC tag or use a custom URL which should point to a page with the following minimal HTML ```<head><meta http-equiv="refresh" content="0; url=YOUR_WEBHOOK_URL"></head>``` and write this new URL to your NFC tag.
